@@ -234,7 +234,7 @@
 			<dependency>
 				<groupId>com.oracle</groupId>
 				<artifactId>ojdbc6</artifactId>
-				<version>11.1.0.7.0</version>
+				<version>11.2.0.3</version>
 			</dependency>
 			<!-- spring -->
 			<dependency>
@@ -327,6 +327,13 @@
                 <artifactId>jsr305</artifactId>
                 <version>3.0.2</version>
             </dependency>
+			<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+			<dependency>
+				<groupId>org.testng</groupId>
+				<artifactId>testng</artifactId>
+				<version>6.1.1</version>
+				<scope>test</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 

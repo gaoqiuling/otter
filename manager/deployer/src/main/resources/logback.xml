@@ -141,6 +141,7 @@
     </logger>
     
 	<root level="WARN">
+        <appender-ref ref="STOUT"/>
 		<appender-ref ref="WEBX-ROOT" />
 	</root>
 </configuration>

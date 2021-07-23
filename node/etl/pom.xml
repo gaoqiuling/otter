@@ -85,15 +85,21 @@
 		  <groupId>org.eclipse.jetty</groupId>
 		  <artifactId>jetty-http</artifactId>
 		</dependency>
-		<!-- test dependency -->
-		<dependency>
-			<groupId>org.jtester</groupId>
-			<artifactId>jtester</artifactId>
-			<scope>test</scope>
-		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jtester</groupId>
+			<artifactId>jtester</artifactId>
+			<version>1.1.8</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.1.1</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
